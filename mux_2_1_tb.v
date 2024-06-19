@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 19.06.2024 11:43:39
+// Create Date: 18.06.2024 20:46:54
 // Design Name: 
-// Module Name: tb
+// Module Name: mux_2_1_tb
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,20 +20,18 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module tb;
-reg sel0, sel1;
-  reg i0,i1,i2,i3;
+module mux_2_1_tb;
+  reg i0, i1, sel;
   wire y;
   
-  mux_4_1 mux(sel0, sel1, i0, i1, i2, i3, y);
-  
+  mux_2_1 mux(sel, i0, i1, y);
   initial begin
-    $monitor("sel0=%b, sel1=%b -> i3 = %0b, i2 = %0b ,i1 = %0b, i0 = %0b -> y = %0b", sel0,sel1,i3,i2,i1,i0, y);
-    {i3,i2,i1,i0} = 4'h5;
-
-    repeat(6) begin
-      {sel0, sel1} = $random;
-      #5;
-    end
+    $monitor("sel = %h: i0 = %h, i1 = %h --> y = %h", sel, i0, i1, y);
+    i0 = 0; i1 = 1;
+    sel = 0;
+    #1;
+    sel = 1;
   end
 endmodule
+
+ 
