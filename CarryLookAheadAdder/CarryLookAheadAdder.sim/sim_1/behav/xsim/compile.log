@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Codes/combinational circuits/CarryLookAheadAdder/CarryLookAheadAdder.srcs/sources_1/new/CarryLookAheadAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CarryLookAheadAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Codes/combinational circuits/CarryLookAheadAdder/CarryLookAheadAdder.srcs/sources_1/new/CarryLookAheadAdder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Codes/combinational circuits/CarryLookAheadAdder/CarryLookAheadAdder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
