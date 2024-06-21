@@ -1,0 +1,112 @@
+$date
+   Thu Jun 20 09:33:03 2024
+$end
+$version
+  2022.1
+$end
+$timescale
+  1ps
+$end
+$scope module ripplecarryadder_tb $end
+$var wire 4 ! S [3:0] $end
+$var wire 4 " Cout [3:0] $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 1 % Cin $end
+$var wire 5 & add [4:0] $end
+$scope module rca $end
+$var wire 4 ' A [3:0] $end
+$var wire 4 ( B [3:0] $end
+$var wire 1 ) Cin $end
+$var wire 4 ! S [3:0] $end
+$var wire 4 " Cout [3:0] $end
+$scope module fa0 $end
+$var wire 1 * a $end
+$var wire 1 + b $end
+$var wire 1 ) cin $end
+$var wire 1 , sum $end
+$var wire 1 - cout $end
+$upscope $end
+$scope module fa $end
+$var wire 1 . a $end
+$var wire 1 / b $end
+$var wire 1 - cin $end
+$var wire 1 0 sum $end
+$var wire 1 1 cout $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bz01 !
+bz00 "
+b1 #
+b0 $
+0%
+bz01 &
+b1 '
+b0 (
+0)
+1*
+0+
+1,
+0-
+0.
+0/
+00
+01
+$end
+#3000
+bz11 !
+bz00 "
+b10 #
+b100 $
+1%
+bz11 &
+b10 '
+b100 (
+1)
+0*
+0+
+1,
+0-
+1.
+0/
+10
+01
+#6000
+bz01 !
+bz10 "
+b1011 #
+b110 $
+0%
+bz01 &
+b1011 '
+b110 (
+0)
+1*
+0+
+1,
+0-
+1.
+1/
+00
+11
+#9000
+bz01 !
+bz11 "
+b101 #
+b11 $
+1%
+b101 '
+b11 (
+1)
+1*
+1+
+1,
+1-
+0.
+1/
+00
+11
