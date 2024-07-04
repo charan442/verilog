@@ -1,0 +1,10 @@
+1. What value of a is displayed on the console output? Justify the
+same.
+reg[1:0]a;
+initial
+begin
+$display($time,“a=%d”,a);
+a =2’d3;
+#10;
+a = 2’d2;
+end
