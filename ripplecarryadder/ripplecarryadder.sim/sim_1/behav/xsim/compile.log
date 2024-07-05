@@ -1,7 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Codes/combinational circuits/ripplecarryadder/ripplecarryadder.srcs/sources_1/new/ripplecarryadder.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module full_adder
-INFO: [VRFC 10-311] analyzing module ripple_carry_adder
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Codes/combinational circuits/ripplecarryadder/ripplecarryadder.srcs/sources_1/new/ripplecarryadder_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module ripplecarryadder_tb
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Codes/combinational circuits/ripplecarryadder/ripplecarryadder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
